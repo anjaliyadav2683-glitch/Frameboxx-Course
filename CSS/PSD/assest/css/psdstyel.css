@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: green;
+    color: aliceblue;
+}
+.justify{
+    justify-self: unset;
+}
