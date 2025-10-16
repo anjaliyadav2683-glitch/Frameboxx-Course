@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid;
+            
+        }
+        .container{
+            width: 1300px;
+            margin: 0;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .container-fluid{
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .row{
+            display: flex;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .juti-content{
+            justify-content: space-between;
+        }
+        .col{
+            flex: 1 0 auto;
+            padding: 0 15px;
+        }
+        @media screen {
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>simple data direct inside section</p>
+        <div><p>data</p></div>
+        <div><p>data</p></div>
+    </section>
+    <section>
+        <div class="container"><p>simple data direct inside section > container</p></div>
+        <div class="container"><p>simple data direct inside section > container</p></div>
+        <div class="container-fluid"><p>simple data direct inside section > container-fluid</p></div>
+        
+    </section>
+    <section>
+        <div class="container">
+        <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+
+        </div>
+        <div>
+            testing
+        </div>
+        </div>
+    </section>
+    
+</body>
+</html>
