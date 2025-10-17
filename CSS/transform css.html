@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        *{
+            width: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            background-color: brown;
+            transition: all;
+            
+        }
+        .box:Hover{
+        transform: scale(1);
+        transform: rotate(45deg);
+        background-color: aqua;
+        transition-timing-function: ease; 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Transform</h1>
+        <hr>
+        <div class="box">
+
+        </div>
+
+    </section>
+</body>
+</html>

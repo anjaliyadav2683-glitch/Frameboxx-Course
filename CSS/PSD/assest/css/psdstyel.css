@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 header{
@@ -6,5 +8,22 @@ header{
     color: aliceblue;
 }
 .justify{
-    justify-self: unset;
+    justify-content: space-between;
+}
+.flex{
+    display:flex;
+    align-items: center;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.box{
+    height: -200;
+    width: -200;
 }
